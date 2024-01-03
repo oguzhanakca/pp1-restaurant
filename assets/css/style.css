@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+}
+/* Header */
+header {
+  z-index: 99;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: #293040;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  color: #a3cad4;
+}
+h1 {
+  font-size: 1.6rem;
+}
+#company-info {
+  display: flex;
+  align-items: center;
+}
+#company-logo {
+  background: url("../images/turkish-feast-high-resolution-logo.png") no-repeat
+    center center/cover;
+  width: 48px;
+  height: 48px;
+}
+/* Dropdown */
+#dropdown {
+  display: none;
+}
+header label {
+  padding-right: 10px;
+  font-size: 1.8rem;
+}
+nav {
+  position: absolute;
+  letter-spacing: 2px;
+  top: 48px;
+  background-color: #2c485a;
+  width: 100%;
+  padding: 5px 10px;
+  line-height: 1.3rem;
+  display: none;
+}
+nav a {
+  text-decoration: none;
+  color: #a3cad4;
+}
+#navigation {
+  list-style-type: none;
+}
+#dropdown:checked ~ nav {
+  display: block;
+}
+.hidden {
+  display: none;
+}
