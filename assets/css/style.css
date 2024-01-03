@@ -68,7 +68,7 @@ nav a {
 /* ---------- Main Content ---------- */
 main {
   padding: 48px 0px;
-  background-color: #4c7a87;
+  background-color: #a6c6ce;
 }
 #restaurant-history {
   padding: 5px 10px;
@@ -95,6 +95,31 @@ main {
 }
 #epilogue-img {
   background: url("../images/turkish-coffee.jpg") no-repeat center center/cover;
+}
+/* ---------- Social Media ---------- */
+#social-media {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+#social-media i {
+  font-size: 2rem;
+}
+.fa-facebook-f {
+  color: #4267b2;
+}
+.fa-instagram {
+  color: #e1306c;
+}
+.fa-tiktok {
+  color: black;
+}
+.fa-youtube {
+  color: #ff0000;
+}
+.fa-x-twitter {
+  color: black;
 }
 /* ---------- Footer ---------- */
 footer {
