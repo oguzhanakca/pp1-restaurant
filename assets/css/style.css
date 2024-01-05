@@ -66,7 +66,7 @@ nav a {
 #dropdown:checked ~ nav {
   display: block;
 }
-/* ---------- Homepage Main Content ---------- */
+/* ---------- Homepage ---------- */
 main {
   padding: 48px 0px;
 }
@@ -161,7 +161,7 @@ footer {
   color: rgb(85, 230, 57);
 }
 
-/* ---------- Gallery Main Content ---------- */
+/* ---------- Gallery ---------- */
 figure {
   display: flex;
   flex-direction: column;
@@ -197,4 +197,5 @@ figure {
   color: #d9e2e4;
   font-size: 1rem;
   background-color: rgba(34, 31, 31, 0.589);
+  border-radius: 5px;
 }
