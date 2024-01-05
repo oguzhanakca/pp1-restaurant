@@ -6,6 +6,7 @@
 }
 body {
   min-height: 100vh;
+  background-color: #a6c6ce;
 }
 .hidden {
   display: none;
@@ -65,10 +66,9 @@ nav a {
 #dropdown:checked ~ nav {
   display: block;
 }
-/* ---------- Main Content ---------- */
+/* ---------- Homepage Main Content ---------- */
 main {
   padding: 48px 0px;
-  background-color: #a6c6ce;
 }
 #restaurant-history {
   padding: 5px 10px;
@@ -159,4 +159,42 @@ footer {
 #restaurant-status i {
   font-size: 1.4rem;
   color: rgb(85, 230, 57);
+}
+
+/* ---------- Gallery Main Content ---------- */
+figure {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 10px;
+}
+#photo-1 {
+  background: url("../images/birthday-photo.webp") no-repeat center center/cover;
+  height: 300px;
+}
+#photo-2 {
+  background: url("../images/halloween-window.jpg") no-repeat center
+    center/cover;
+  height: 300px;
+}
+#photo-3 {
+  background: url("../images/serpme-kahvalti-photo.jpg") no-repeat center
+    center/cover;
+  height: 300px;
+}
+#photo-4 {
+  background: url("../images/Iskender-Kebap-klassisch.webp") no-repeat center
+    center/cover;
+  height: 300px;
+}
+.photo {
+  width: 100%;
+  display: relative;
+  margin-bottom: 5px;
+}
+.photo-info {
+  padding: 5px;
+  position: absolute;
+  color: #d9e2e4;
+  font-size: 1rem;
+  background-color: rgba(34, 31, 31, 0.589);
 }
