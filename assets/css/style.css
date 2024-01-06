@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Permanent+Marker&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -68,10 +68,10 @@ nav a {
 }
 /* ---------- Homepage ---------- */
 main {
-  padding: 48px 0px;
+  padding: 48px 10px;
 }
 #restaurant-history {
-  padding: 5px 10px;
+  padding: 5px 0px;
 }
 #history-title {
   padding-bottom: 10px;
@@ -198,4 +198,32 @@ figure {
   font-size: 1rem;
   background-color: rgba(34, 31, 31, 0.589);
   border-radius: 5px;
+}
+/* ---------- Contact ---------- */
+.contact {
+  font-family: "Oswald", sans-serif;
+}
+.contact-info {
+  padding: 10px 0px;
+}
+.contact-info i {
+  font-size: 1.6rem;
+  color: black;
+}
+.contact-info p {
+  font-size: 1.4rem;
+  color: #020303;
+}
+.work-hours {
+  font-size: 1.2rem;
+  font-family: "Oswald", sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+.map iframe {
+  width: 100%;
+}
+textarea {
+  width: 100%;
+  height: 6rem;
 }
