@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -68,10 +69,10 @@ nav a {
 }
 /* ---------- Homepage ---------- */
 main {
-  padding: 48px 10px;
+  padding: 48px 0px;
 }
 #restaurant-history {
-  padding: 5px 0px;
+  padding: 5px 10px;
 }
 #history-title {
   padding-bottom: 10px;
@@ -190,6 +191,7 @@ figure {
   width: 100%;
   display: relative;
   margin-bottom: 5px;
+  border-radius: 5px;
 }
 .photo-info {
   padding: 5px;
@@ -237,4 +239,23 @@ textarea {
   border: 1px solid #293040;
   border-radius: 5px;
   background-color: #04aa6d;
+}
+/* ---------- Contact ---------- */
+#menu-navigation {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+#menu-navigation li {
+  padding: 5px;
+  border: 1px solid #293040;
+  background-color: #ffc3a1;
+  color: #212121;
+  flex-grow: 2;
+  font-weight: 700;
 }
