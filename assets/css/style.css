@@ -68,7 +68,7 @@ nav a {
   display: block;
 }
 /* ---------- Homepage ---------- */
-main {
+#homepage-main {
   padding: 48px 0px;
 }
 #restaurant-history {
@@ -204,6 +204,7 @@ figure {
 /* ---------- Contact ---------- */
 .contact {
   font-family: "Oswald", sans-serif;
+  padding: 48px 5px;
 }
 .contact-info {
   padding: 10px 0px;
@@ -240,7 +241,7 @@ textarea {
   border-radius: 5px;
   background-color: #04aa6d;
 }
-/* ---------- Contact ---------- */
+/* ---------- Menu Navigation ---------- */
 #menu-navigation {
   display: flex;
   list-style-type: none;
@@ -250,12 +251,56 @@ textarea {
   justify-content: center;
   text-align: center;
   font-family: "Lato", sans-serif;
+  top: 48px;
+  z-index: 98;
 }
 #menu-navigation li {
   padding: 5px;
   border: 1px solid #293040;
   background-color: #ffc3a1;
-  color: #212121;
   flex-grow: 2;
   font-weight: 700;
+}
+#menu-navigation a {
+  text-decoration: none;
+  color: #212121;
+}
+/* ---------- Menu ---------- */
+#foods {
+  background-color: #293040;
+}
+#soups-salads {
+  padding-top: 110px;
+  padding-bottom: 48px;
+}
+.food hr {
+  border: 1px solid rgb(120, 203, 224);
+  width: 100%;
+}
+#foods h2 {
+  color: rgb(161, 218, 56);
+  font-family: "Permanent Marker", cursive;
+  padding-left: 5px;
+  text-align: center;
+}
+.food {
+  padding: 10px;
+}
+.food img {
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+}
+.food h4 {
+  font-family: "Lato", sans-serif;
+  color: rgb(218, 180, 56);
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 5px 0px;
+}
+.food p {
+  font-family: "Lato", sans-serif;
+  color: #d9e2e4;
 }
