@@ -391,9 +391,10 @@ textarea {
   .contact {
     display: flex;
     flex-wrap: wrap;
-    padding: 48px 10px;
+    padding: 48px 20px;
   }
   .contact-info {
+    text-align: end;
     width: 350px;
   }
   .contact-info p {
@@ -413,8 +414,28 @@ textarea {
     width: 100%;
   }
   #contact-form {
-    font-size: 1.3rem;
+    font-size: 2rem;
+    width: 100%;
+  }
+  .contact-input {
+    display: flex;
+    gap: 0px 20px;
+    padding-bottom: 10px;
+  }
+  textarea {
+    height: 8rem;
+  }
+  #name {
+    height: 47px;
     width: 50%;
+  }
+  #email {
+    height: 47px;
+    width: 50%;
+  }
+  #subscription {
+    width: 25px;
+    height: 25px;
   }
   /* ---------- Tablet Menu ---------- */
   #menu-navigation {
