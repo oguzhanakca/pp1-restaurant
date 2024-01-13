@@ -387,4 +387,32 @@ textarea {
     width: 350px;
     flex-grow: 2;
   }
+  /* ---------- Tablet Contact ---------- */
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 48px 10px;
+  }
+  .contact-info {
+    width: 350px;
+  }
+  .contact-info p {
+    font-size: 2rem;
+  }
+  .work-hours {
+    width: 350px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .work-hours ul {
+    list-style-type: none;
+  }
+  .map {
+    width: 100%;
+  }
+  #contact-form {
+    width: 50%;
+  }
 }
