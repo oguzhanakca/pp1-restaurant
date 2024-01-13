@@ -22,12 +22,12 @@ header {
   height: 48px;
   position: fixed;
   justify-content: space-between;
-  align-items: center;
   color: #a3cad4;
 }
 h1 {
   font-size: 1.6rem;
   font-family: "Permanent Marker", cursive;
+  min-width: 204px;
 }
 #company-info {
   display: flex;
@@ -77,11 +77,15 @@ nav a {
 #history-title {
   padding-bottom: 10px;
 }
+#logo-img {
+  background: url("../images/turkish-feast-high-resolution-logo.png") no-repeat
+    center center/cover;
+}
 #title-img {
   background: url("../images/grilled-meat-and-vegetable-on-the-table.jpg")
     no-repeat center center/cover;
 }
-.history-img {
+.homepage-img {
   width: 100%;
   height: 285px;
   border-radius: 10px;
@@ -148,6 +152,9 @@ footer {
 #table-sit i {
   font-size: 1.4rem;
   color: rgb(85, 230, 57);
+}
+#footer-social-media {
+  display: none;
 }
 #restaurant-status {
   display: flex;
@@ -305,4 +312,61 @@ textarea {
 .food p {
   font-family: "Lato", sans-serif;
   color: #d9e2e4;
+}
+/* Tablet View Port */
+@media screen and (min-width: 768px) {
+  /* Header */
+  header label {
+    display: none;
+  }
+  nav {
+    display: flex;
+    position: relative;
+    justify-content: end;
+    top: 0;
+    text-align: end;
+    font-size: 1.3rem;
+  }
+  nav li {
+    display: inline-block;
+  }
+  .active {
+    border-bottom: 1px solid #a3cad4;
+  }
+  /* Footer */
+  #footer-social-media {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  }
+  /* Homepage */
+  #history-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 10px;
+  }
+  #history-title p {
+    display: flex;
+    height: 285px;
+    text-align: center;
+    align-items: center;
+    width: 370px;
+  }
+  .homepage-img {
+    width: 370px;
+  }
+  .order-1 {
+    order: 1;
+  }
+  .order-2 {
+    order: 2;
+  }
+  #title-img {
+    max-width: 370px;
+  }
+  #social-media {
+    display: none;
+  }
 }
