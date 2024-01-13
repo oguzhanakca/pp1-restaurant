@@ -437,6 +437,10 @@ textarea {
     width: 25px;
     height: 25px;
   }
+  #contact-button {
+    width: 6rem;
+    font-size: 2rem;
+  }
   /* ---------- Tablet Menu ---------- */
   #menu-navigation {
     left: 0;
