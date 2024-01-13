@@ -415,4 +415,20 @@ textarea {
   #contact-form {
     width: 50%;
   }
+  /* ---------- Tablet Menu ---------- */
+  #menu-navigation {
+    left: 0;
+    transform: translate(calc(50vw - 50%));
+  }
+  #foods > div {
+    padding-top: 79px;
+  }
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .food {
+    width: 350px;
+  }
 }
