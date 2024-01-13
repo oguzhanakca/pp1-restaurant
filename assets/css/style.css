@@ -413,6 +413,7 @@ textarea {
     width: 100%;
   }
   #contact-form {
+    font-size: 1.3rem;
     width: 50%;
   }
   /* ---------- Tablet Menu ---------- */
