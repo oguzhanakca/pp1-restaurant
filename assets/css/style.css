@@ -177,28 +177,33 @@ figure {
 }
 #photo-1 {
   background: url("../images/birthday-photo.webp") no-repeat center center/cover;
-  height: 300px;
 }
 #photo-2 {
   background: url("../images/halloween-window.jpg") no-repeat center
     center/cover;
-  height: 300px;
 }
 #photo-3 {
   background: url("../images/serpme-kahvalti-photo.jpg") no-repeat center
     center/cover;
-  height: 300px;
 }
 #photo-4 {
   background: url("../images/Iskender-Kebap-klassisch.webp") no-repeat center
     center/cover;
-  height: 300px;
+}
+#photo-5 {
+  background: url("../images/celebrate.webp") no-repeat center center/cover;
+}
+#photo-6 {
+  background: url("../images/family-dinner.webp") no-repeat center center/cover;
+}
+#photo-7 {
+  background: url("../images/dinner.webp") no-repeat center center/cover;
 }
 .photo {
   width: 100%;
-  display: relative;
   margin-bottom: 5px;
   border-radius: 5px;
+  height: 300px;
 }
 .photo-info {
   padding: 5px;
@@ -315,7 +320,8 @@ textarea {
 }
 /* Tablet View Port */
 @media screen and (min-width: 768px) {
-  /* Header */
+  /* ---------- Tablet Header ---------- */
+
   header label {
     display: none;
   }
@@ -333,14 +339,16 @@ textarea {
   .active {
     border-bottom: 1px solid #a3cad4;
   }
-  /* Footer */
+  /* ---------- Tablet Footer ---------- */
+
   #footer-social-media {
     font-size: 1.5rem;
     display: flex;
     justify-content: space-between;
     width: 40%;
   }
-  /* Homepage */
+  /* ---------- Tablet Homepage ---------- */
+
   #history-title {
     display: flex;
     flex-wrap: wrap;
@@ -368,5 +376,15 @@ textarea {
   }
   #social-media {
     display: none;
+  }
+  /* ---------- Tablet Gallery ---------- */
+  figure {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px 10px;
+  }
+  .photo {
+    width: 350px;
+    flex-grow: 2;
   }
 }
