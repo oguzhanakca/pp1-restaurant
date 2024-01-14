@@ -92,7 +92,7 @@ nav a {
 }
 #restaurant-history p {
   color: black;
-  padding-top: 5px;
+  padding: 5px 0px;
   font-size: 1.3rem;
   text-indent: 1rem;
   line-height: 1.5rem;
@@ -358,17 +358,17 @@ textarea {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    row-gap: 10px;
+    gap: 10px 20px;
   }
   #history-title p {
     display: flex;
     height: 285px;
     text-align: center;
     align-items: center;
-    width: 370px;
+    width: 52%;
   }
   .homepage-img {
-    width: 370px;
+    width: 45%;
   }
   .order-1 {
     order: 1;
@@ -376,9 +376,7 @@ textarea {
   .order-2 {
     order: 2;
   }
-  #title-img {
-    max-width: 370px;
-  }
+
   #social-media {
     display: none;
   }
@@ -472,12 +470,26 @@ textarea {
 }
 /* ---------- Laptop ---------- */
 @media screen and (min-width: 1024px) {
+  /* ---------- Laptop Header ---------- */
+  nav li {
+    margin-left: 10px;
+  }
+  /* ---------- Laptop Homepage ---------- */
   #history-title {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     gap: 10px 20px;
   }
   #history-title p {
-    padding: 5px 20px;
+    width: 53%;
+  }
+
+  /* ---------- Laptop Menu ---------- */
+  .food {
+    width: 340px;
+  }
+  .food img {
+    width: 320px;
+    height: 250px;
   }
 }
