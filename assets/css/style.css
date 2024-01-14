@@ -218,6 +218,13 @@ figure {
   font-family: "Oswald", sans-serif;
   padding: 48px 5px;
 }
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
 .contact-info {
   padding: 10px 0px;
 }
@@ -396,6 +403,9 @@ textarea {
     flex-wrap: wrap;
     padding: 48px 20px;
   }
+  .information {
+    flex-direction: row;
+  }
   .contact-info {
     text-align: end;
     width: 350px;
@@ -482,6 +492,10 @@ textarea {
   }
   #history-title p {
     width: 53%;
+  }
+  /* ---------- Laptop Contact ---------- */
+  .work-hours {
+    right: 0;
   }
 
   /* ---------- Laptop Menu ---------- */
