@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lemon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -25,7 +27,7 @@ header {
   color: #a3cad4;
 }
 h1 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-family: "Permanent Marker", cursive;
   min-width: 204px;
 }
@@ -325,7 +327,52 @@ textarea {
   font-family: "Lato", sans-serif;
   color: #d9e2e4;
 }
-/* Tablet View Port */
+
+/* ---------- Error Page ---------- */
+#error-page {
+  padding-top: 48px;
+  background: url("../images/404-background.avif") no-repeat center center/cover;
+  height: 100vh;
+  text-align: center;
+}
+#error-page h2 {
+  font-size: 10rem;
+  margin-top: 5vh;
+  color: #a6c6ce;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#page-description {
+  font-family: "Lemon", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: #0fbaee;
+  margin-top: 5vh;
+}
+#page-explanation {
+  margin: 6vh 5px;
+  font-size: 1.5rem;
+  color: #ffc3a1;
+}
+#home-button {
+  text-decoration: none;
+  font-size: 1.7rem;
+  border: 1px solid #308ba1;
+  border-radius: 20px;
+  background-color: #308ba1;
+  font-family: "Oswald", sans-serif;
+  color: #1d1b30;
+  padding: 10px;
+  font-weight: 400;
+}
+#home-button:hover {
+  background-color: rgb(47, 211, 211);
+  border-color: rgb(47, 211, 211);
+}
+
+/* Tablet */
 @media screen and (min-width: 768px) {
   /* ---------- Tablet Header ---------- */
 
@@ -478,7 +525,7 @@ textarea {
     height: 300px;
   }
 }
-/* ---------- Laptop ---------- */
+/*  Laptop  */
 @media screen and (min-width: 1024px) {
   /* ---------- Laptop Header ---------- */
   nav li {
