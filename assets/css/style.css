@@ -335,6 +335,8 @@ textarea {
   }
   h1 {
     display: inline-block;
+    letter-spacing: 5px;
+    width: 350px;
   }
   nav li {
     display: inline-block;
