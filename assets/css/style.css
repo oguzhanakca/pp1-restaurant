@@ -493,3 +493,22 @@ textarea {
     height: 250px;
   }
 }
+/* ---------- Desktop ---------- */
+@media screen and (min-width: 1600px) {
+  /* ---------- Laptop Homepage ---------- */
+  .homepage-img {
+    height: 400px;
+  }
+  #history-title p {
+    height: 400px;
+  }
+
+  /* ---------- Laptop Menu ---------- */
+  .food {
+    width: 340px;
+  }
+  .food img {
+    width: 320px;
+    height: 250px;
+  }
+}
