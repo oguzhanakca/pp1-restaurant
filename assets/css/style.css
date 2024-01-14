@@ -334,7 +334,8 @@ textarea {
     font-size: 1.3rem;
   }
   h1 {
-    min-width: 250px;
+    width: 250px;
+    height: 37px;
   }
   nav li {
     display: inline-block;
