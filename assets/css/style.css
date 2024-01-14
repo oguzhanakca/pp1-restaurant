@@ -449,12 +449,19 @@ textarea {
   #foods > div {
     padding-top: 79px;
   }
+  #foods h2 {
+    font-size: 2rem;
+  }
   .products {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
   .food {
-    width: 350px;
+    width: 380px;
+  }
+  .food img {
+    width: 360px;
+    height: 300px;
   }
 }
