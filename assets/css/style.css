@@ -290,7 +290,12 @@ textarea {
   height: 250px;
   border-radius: 5px;
 }
-.food h4 {
+
+.food-description {
+  font-family: "Lato", sans-serif;
+  color: #d9e2e4;
+}
+.food-name {
   font-family: "Lato", sans-serif;
   color: rgb(218, 180, 56);
   font-size: 1.1rem;
@@ -298,10 +303,7 @@ textarea {
   justify-content: space-between;
   align-items: baseline;
   margin: 5px 0px;
-}
-.food p {
-  font-family: "Lato", sans-serif;
-  color: #d9e2e4;
+  font-weight: 700;
 }
 
 /* ---------- Error Page ---------- */
