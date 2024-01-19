@@ -204,6 +204,8 @@ figure {
 
 .contact-info {
   padding: 10px 0px;
+  width: 100%;
+  text-align: center;
 }
 .contact-info i {
   font-size: 1.6rem;
@@ -218,6 +220,7 @@ figure {
   font-family: "Oswald", sans-serif;
   color: rgb(0, 0, 0);
   font-weight: 500;
+  text-align: center;
 }
 .map iframe {
   width: 100%;
@@ -433,7 +436,7 @@ textarea {
     flex-direction: row;
   }
   .contact-info {
-    text-align: end;
+    text-align: center;
     width: 350px;
   }
   .contact-info p {
