@@ -31,13 +31,17 @@ h1 {
   font-family: "Permanent Marker", cursive;
   min-width: 204px;
 }
+img {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
 #company-info {
   display: flex;
   align-items: center;
 }
 #company-logo {
-  background: url("../images/turkish-feast-high-resolution-logo.webp") no-repeat
-    center center/cover;
+  display: flex;
   width: 48px;
   height: 48px;
 }
@@ -79,14 +83,7 @@ nav a {
 #history-title {
   padding-bottom: 10px;
 }
-#logo-img {
-  background: url("../images/turkish-feast-high-resolution-logo.webp") no-repeat
-    center center/cover;
-}
-#title-img {
-  background: url("../images/grilled-meat-and-vegetable-on-the-table.webp")
-    no-repeat center center/cover;
-}
+
 .homepage-img {
   width: 100%;
   height: 285px;
