@@ -36,7 +36,7 @@ h1 {
   align-items: center;
 }
 #company-logo {
-  background: url("../images/turkish-feast-high-resolution-logo.png") no-repeat
+  background: url("../images/turkish-feast-high-resolution-logo.webp") no-repeat
     center center/cover;
   width: 48px;
   height: 48px;
@@ -80,7 +80,7 @@ nav a {
   padding-bottom: 10px;
 }
 #logo-img {
-  background: url("../images/turkish-feast-high-resolution-logo.png") no-repeat
+  background: url("../images/turkish-feast-high-resolution-logo.webp") no-repeat
     center center/cover;
 }
 #title-img {
