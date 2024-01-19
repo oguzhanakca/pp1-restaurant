@@ -35,6 +35,7 @@ img {
   object-fit: cover;
   max-width: 100%;
   max-height: 100%;
+  display: inline-block;
 }
 #company-info {
   display: flex;
@@ -83,7 +84,6 @@ nav a {
 #history-title {
   padding-bottom: 10px;
 }
-
 .homepage-img {
   width: 100%;
   height: 285px;
@@ -96,9 +96,6 @@ nav a {
   text-indent: 1rem;
   line-height: 1.5rem;
   font-family: "Oswald", sans-serif;
-}
-#epilogue-img {
-  background: url("../images/turkish-coffee.webp") no-repeat center center/cover;
 }
 /* ---------- Social Media ---------- */
 #social-media {
@@ -172,28 +169,8 @@ figure {
   flex-direction: column;
   padding: 50px 10px;
 }
-#photo-1 {
-  background: url("../images/birthday-photo.webp") no-repeat center center/cover;
-}
-#photo-2 {
-  background: url("../images/halloween-window.webp") no-repeat center
-    center/cover;
-}
-#photo-3 {
-  background: url("../images/serpme-kahvalti-photo.webp") no-repeat center
-    center/cover;
-}
-#photo-4 {
-  background: url("../images/iskender-kebab.webp") no-repeat center center/cover;
-}
-#photo-5 {
-  background: url("../images/celebrate.webp") no-repeat center center/cover;
-}
-#photo-6 {
-  background: url("../images/family-dinner.webp") no-repeat center center/cover;
-}
-#photo-7 {
-  background: url("../images/dinner.webp") no-repeat center center/cover;
+.image-container {
+  position: relative;
 }
 .photo {
   width: 100%;
@@ -204,6 +181,7 @@ figure {
 .photo-info {
   padding: 5px;
   position: absolute;
+  top: 0;
   color: #d9e2e4;
   font-size: 1rem;
   font-weight: 600;
