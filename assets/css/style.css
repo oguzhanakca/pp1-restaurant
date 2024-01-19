@@ -209,6 +209,7 @@ figure {
   position: absolute;
   color: #d9e2e4;
   font-size: 1rem;
+  font-weight: 600;
   background-color: rgba(34, 31, 31, 0.589);
   border-radius: 5px;
 }
