@@ -84,7 +84,7 @@ nav a {
     center center/cover;
 }
 #title-img {
-  background: url("../images/grilled-meat-and-vegetable-on-the-table.jpg")
+  background: url("../images/grilled-meat-and-vegetable-on-the-table.webp")
     no-repeat center center/cover;
 }
 .homepage-img {
@@ -101,7 +101,7 @@ nav a {
   font-family: "Oswald", sans-serif;
 }
 #epilogue-img {
-  background: url("../images/turkish-coffee.jpg") no-repeat center center/cover;
+  background: url("../images/turkish-coffee.webp") no-repeat center center/cover;
 }
 /* ---------- Social Media ---------- */
 #social-media {
@@ -179,11 +179,11 @@ figure {
   background: url("../images/birthday-photo.webp") no-repeat center center/cover;
 }
 #photo-2 {
-  background: url("../images/halloween-window.jpg") no-repeat center
+  background: url("../images/halloween-window.webp") no-repeat center
     center/cover;
 }
 #photo-3 {
-  background: url("../images/serpme-kahvalti-photo.jpg") no-repeat center
+  background: url("../images/serpme-kahvalti-photo.webp") no-repeat center
     center/cover;
 }
 #photo-4 {
