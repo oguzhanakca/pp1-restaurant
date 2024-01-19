@@ -397,10 +397,10 @@ textarea {
     height: 285px;
     text-align: center;
     align-items: center;
-    width: 52%;
+    width: 50%;
   }
   .homepage-img {
-    width: 45%;
+    width: 350px;
   }
   .order-1 {
     order: 1;
@@ -417,9 +417,10 @@ textarea {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 5px 10px;
+    justify-content: space-between;
   }
   .photo {
-    width: 350px;
+    width: 365px;
     flex-grow: 2;
   }
   /* ---------- Tablet Contact ---------- */
@@ -516,7 +517,11 @@ textarea {
     gap: 10px 20px;
   }
   #history-title p {
-    width: 53%;
+    width: 63%;
+  }
+  /* ---------- Laptop Gallery ---------- */
+  .photo {
+    width: 325px;
   }
   /* ---------- Laptop Contact ---------- */
   .work-hours {
@@ -534,15 +539,19 @@ textarea {
 }
 /* ---------- Desktop ---------- */
 @media screen and (min-width: 1600px) {
-  /* ---------- Laptop Homepage ---------- */
+  /* ---------- Desktop Homepage ---------- */
   .homepage-img {
+    width: 550px;
     height: 400px;
   }
   #history-title p {
     height: 400px;
   }
-
-  /* ---------- Laptop Menu ---------- */
+  /* ---------- Desktop Gallery ---------- */
+  .photo {
+    width: 520px;
+  }
+  /* ---------- Desktop Menu ---------- */
   .food {
     width: 340px;
   }
