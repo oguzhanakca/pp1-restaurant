@@ -523,7 +523,13 @@ textarea {
     gap: 10px 20px;
   }
   #history-title p {
-    width: 63%;
+    width: 64%;
+  }
+  .homepage-img {
+    width: 100%;
+  }
+  .img-container {
+    width: 33%;
   }
   /* ---------- Laptop Gallery ---------- */
   .photo {
@@ -546,8 +552,10 @@ textarea {
 /* ---------- Desktop ---------- */
 @media screen and (min-width: 1600px) {
   /* ---------- Desktop Homepage ---------- */
+  .img-container {
+    width: 34%;
+  }
   .homepage-img {
-    width: 550px;
     height: 400px;
   }
   #history-title p {
