@@ -105,11 +105,11 @@ As a returning user,
 
 As the site owner,
 
-13. I want the users to find information to contact us.
-14. I want users to find enough information about our business before they contact us.
-15. I want users to get to know the restaurant.
-16. I want users to see our menu.
-17. I want users to see pictures of events that we made in our restaurant.
+14. I want the users to find information to contact us.
+15. I want users to find enough information about our business before they contact us.
+16. I want users to get to know the restaurant.
+17. I want users to see our menu.
+18. I want users to see photos of events that we made in our restaurant.
 
 ## Design
 
@@ -190,7 +190,7 @@ The website consists of five separate pages:
 ### Homepage
 
 - Gives information about the restaurant and what cuisine they serve
-- User stories covered: 3, 14
+- User stories covered: 1, 16
 
 ![Homepage](docs/features/feature-homepage.jpg)
 
@@ -200,14 +200,14 @@ The website consists of five separate pages:
 - Gives information about current capacity of restaurant and its state
 - On tablet and bigger screens contains social media links
 - Contains a shortcut to make a call
-- User stories covered: 1, 6, 7, 10, 15
+- User stories covered: 7, 8, 9, 10, 11, 15
 
 ![Footer](docs/features/feature-footer.jpg)
 
 ### Image Gallery
 
 - Imagery of the restaurant and the events they hosted
-- User stories covered: 4
+- User stories covered: 1, 3, 18
 
 ![Gallery](docs/features/feature-gallery.jpg)
 
@@ -215,29 +215,29 @@ The website consists of five separate pages:
 
 - A way for user to provide feedback
 - Has an option to subscribe for deals & events
-- User stories covered: 9, 15
+- User stories covered: 13, 14
 
 ![Contact Form](docs/features/feature-contact-form.jpg)
 
 ### Map
 
 - Shows the restaurant location on an embeded Google Map
-- User stories covered: 1, 12
+- User stories covered: 4, 12
 
 ![Map](docs/features/feature-map.jpg)
 
 ### Contact Information
 
-- Provides the user with information about the restaurant including addres, phone number, email, and the name of the owner
-- User stories covered: 7, 15
+- Provides the user with information about the restaurant including address, phone number and work hours
+- User stories covered: 5, 10, 11, 12, 14
 
-![Info Box](docs/features/feature-contact-information.jpg)
+![Information](docs/features/feature-contact-information.jpg)
 
 ### Menu
 
 - Shows the menu with its own navigation: soups & salads, main courses, seafood, desserts and drinks
-- Every meal has its own picture, price and description
-- User stories covered: 2, 8
+- Every meal has its own photo, price and description
+- User stories covered: 2, 6, 17
 
 ![Menu](docs/features/feature-menu.jpg)
 
@@ -248,31 +248,24 @@ The website consists of five separate pages:
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
 
 <details><summary>Home</summary>
-<img src="docs/validation/validation-html-index.jpg">
-</details>
-<details><summary>About</summary>
-<img src="docs/validation/validation-html-about.jpg">
-</details>
-<details><summary>Menu</summary>
-<img src="docs/validation/validation-html-menu.jpg">
+<img src="docs/validation/html-validate-index.jpg">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/validation/validation-html-gallery.jpg">
+<img src="docs/validation/html-validate-gallery.jpg">
 </details>
-<details><summary>Home</summary>
-<img src="docs/validation/validation-html-contact.jpg">
+<details><summary>Contact</summary>
+<img src="docs/validation/html-validate-contact.jpg">
+</details>
+<details><summary>Menu</summary>
+<img src="docs/validation/html-validate-menu.jpg">
 </details>
 
 ### CSS Validation
 
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
-When validating the page as a whole, the validator shows some errors linked to Bootstrap v5.0. When validating just my own custom CSS it passes with no errors found and some warnings associated to using root variables.
 
-<details><summary>whole page</summary>
-<img src="docs/validation/validation-css-whole-page.jpg">
-</details>
 <details><summary>style.css</summary>
-<img src="docs/validation/validation-css-style.jpg">
+<img src="docs/validation/css-validate.jpg">
 </details>
 
 ### Accessibility
@@ -280,45 +273,59 @@ When validating the page as a whole, the validator shows some errors linked to B
 The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
 
 <details><summary>Home</summary>
-<img src="docs/validation/validation-accessibility-index.jpg">
-</details>
-<details><summary>About</summary>
-<img src="docs/validation/validation-accessibility-about.jpg">
-</details>
-<details><summary>Menu</summary>
-<img src="docs/validation/validation-accessibility-menu.jpg">
+<img src="docs/validation/wave-accessibility-index.jpg">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/validation/validation-accessibility-gallery.jpg">
+<img src="docs/validation/wave-accessibility-gallery.jpg">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/validation/validation-accessibility-contact.jpg">
+<img src="docs/validation/wave-accessibility-contact.jpg">
+</details>
+<details><summary>Menu</summary>
+<img src="docs/validation/wave-accessibility-menu.jpg">
 </details>
 
 ### Performance
 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
 
+#### Mobile
+
 <details><summary>Home</summary>
-<img src="docs/validation/">
+<img src="docs/validation/lighthouse-mobile-index.jpg">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/validation/lighthouse-performance-gallery.jpg">
+<img src="docs/validation/lighthouse-mobile-gallery.jpg">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/validation/lighthouse-performance-contact.jpg">
+<img src="docs/validation/lighthouse-mobile-contact.jpg">
 </details>
 <details><summary>Menu</summary>
-<img src="docs/validation/lighthouse-performance-menu.jpg">
+<img src="docs/validation/lighthouse-mobile-menu.jpg">
+</details>
+
+#### Desktop
+
+<details><summary>Home</summary>
+<img src="docs/validation/lighthouse-desktop-index.jpg">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/validation/lighthouse-desktop-gallery.jpg">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/validation/lighthouse-desktop-contact.jpg">
+</details>
+<details><summary>Menu</summary>
+<img src="docs/validation/lighthouse-desktop-menu.jpg">
 </details>
 
 ### Performing tests on various devices
 
 The website was tested on the following devices:
 
-- Lenovo Yoga 2 Pro (both in pc and tablet mode)
-- Honor 20 pro
-- Xiaomi Redmi Note 7
+- Desktop
+- Iphone 6S
+- Ipad 5th Gen
 
 In addition, the website was tested using Google Chrome Developer Tools Device Toggeling option for all available device options.
 
@@ -327,8 +334,8 @@ In addition, the website was tested using Google Chrome Developer Tools Device T
 The website was tested on the following browsers:
 
 - Google Chrome
-- Mozilla Firefox
-- Microsoft Egde
+- Opera
+- Microsoft Edge
 
 ### Testing user stories
 
