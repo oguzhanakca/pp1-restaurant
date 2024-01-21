@@ -544,7 +544,7 @@ You can clone the repository by following these steps:
 4. Open Git Bash
 5. Change the current working directory to the one where you want the cloned directory
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
-   7.Press Enter to create your local clone.
+7. Press Enter to create your local clone.
 
 ## Credits
 
