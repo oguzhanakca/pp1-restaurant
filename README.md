@@ -83,7 +83,7 @@
 As a first time user,
 
 1. I want to know more about restaurant.
-2. I want to know the menu content and prices.
+2. I want to know the menu and prices.
 3. I want to be prepared what to expect at the restaurant.
 4. I want to know where the restaurant located.
 5. I want to know the contact address of restaurant.
@@ -106,10 +106,9 @@ As a returning user,
 As the site owner,
 
 14. I want the users to find information to contact us.
-15. I want users to find enough information about our business before they contact us.
-16. I want users to get to know the restaurant.
-17. I want users to see our menu.
-18. I want users to see photos of events that we made in our restaurant.
+15. I want users to find enough information if today reservation is available or not, before they contact us.
+16. I want users to see our menu.
+17. I want users to see photos of events that we made in our restaurant.
 
 ## Design
 
@@ -136,7 +135,7 @@ For the color theme, I used restaurant's background color as the reference. Afte
 The page is structured in a user friendly way and easy to learn.
 The header with restaurant logo and navigation will make it easier for users to navigate the website easily.
 The footer will provide real-time information about the restaurant and contains social media links.
-The website consists of five separate pages:
+The website consists of 4 separate pages:
 
 - A homepage with information of restaurant and its products.
 - An image gallery with images showcasing the events that made in restaurant and the general feel of the restaurant.
@@ -190,7 +189,7 @@ The website consists of five separate pages:
 ### Homepage
 
 - Gives information about the restaurant and what cuisine they serve
-- User stories covered: 1, 16
+- User stories covered: 1, 17
 
 ![Homepage](docs/features/feature-homepage.jpg)
 
@@ -207,7 +206,7 @@ The website consists of five separate pages:
 ### Image Gallery
 
 - Imagery of the restaurant and the events they hosted
-- User stories covered: 1, 3, 18
+- User stories covered: 1, 3, 17
 
 ![Gallery](docs/features/feature-gallery.jpg)
 
@@ -237,7 +236,7 @@ The website consists of five separate pages:
 
 - Shows the menu with its own navigation: soups & salads, main courses, seafood, desserts and drinks
 - Every meal has its own photo, price and description
-- User stories covered: 2, 6, 17
+- User stories covered: 2, 6, 16
 
 ![Menu](docs/features/feature-menu.jpg)
 
@@ -339,164 +338,188 @@ The website was tested on the following browsers:
 
 ### Testing user stories
 
-1. As a first time user, I want to know where the restaurant is lokated
+#### As a first time user,
 
-| **Feature**                          | **Action**                                             | **Expected Result**                                   | **Actual Result** |
-| ------------------------------------ | ------------------------------------------------------ | ----------------------------------------------------- | ----------------- |
-| Map                                  | Navigate to the Contact Us page, locate the Google Map | Locating a map showing the location of the restaurant | Works as expected |
-| Footer - contact information section | On any page scroll down to the footer                  | Find the address of the restaurant                    | Works as expected |
+1.  I want to know more about restaurant.
+
+| **Feature**   | **Action**               | **Expected Result**                                    | **Actual Result** |
+| ------------- | ------------------------ | ------------------------------------------------------ | ----------------- |
+| Image Gallery | Navigate to Gallery page | Finding images that gives information about restaurant | Works as expected |
+| Homepage      | Navigate to Home page    | Find information about restaurant                      | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-1v1-12.jpg">
-<img src="docs/user-story-testing/user-story-1v2.jpg">
+<img src="docs/user-story-test/user-story-gallery.jpg">
+<img src="docs/user-story-test/user-story-home-info.jpg">
 </details>
 
-2. As a first time user, I want to know the price range
+2. I want to know the menu and prices.
 
 | **Feature** | **Action**                | **Expected Result**     | **Actual Result** |
 | ----------- | ------------------------- | ----------------------- | ----------------- |
 | Menu        | Navigate to the Menu page | See prices on menu page | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-2.jpg">
+<img src="docs/user-story-test/user-story-menu.jpg">
 </details>
 
-3. As a first time user, I want to know more about the restaurant
+3. I want to be prepared what to expect at the restaurant.
 
-| **Feature**      | **Action**                                                             | **Expected Result**                | **Actual Result** |
-| ---------------- | ---------------------------------------------------------------------- | ---------------------------------- | ----------------- |
-| About Us         | Navigate to the About page and locate the About Us section             | Find description of the restaurant | Works as expected |
-| Customer reviews | Navigate to the About page, scroll down to What our guests say section | Read customer reviews              | Works as expected |
+| **Feature**   | **Action**               | **Expected Result**                  | **Actual Result** |
+| ------------- | ------------------------ | ------------------------------------ | ----------------- |
+| Image Gallery | Navigate to Gallery page | Find photos of restaurant and events | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-3-14.jpg">
+<img src="docs/user-story-test/user-story-gallery.jpg">
 </details>
 
-4. As a first time user, I want to get a feel of what to expect at the restaurant
+4. I want to know where the restaurant located.
 
-| **Feature** | **Action**                                                 | **Expected Result**                                   | **Actual Result** |
-| ----------- | ---------------------------------------------------------- | ----------------------------------------------------- | ----------------- |
-| Gallery     | Navigate to the Gallery page                               | Find pictures of the restaurant and food served there | Works as expected |
-| Promo video | Navigate to the GAlelry page and scroll to the promo video | Watch promo video                                     | Works as expected |
+| **Feature** | **Action**               | **Expected Result**                                | **Actual Result** |
+| ----------- | ------------------------ | -------------------------------------------------- | ----------------- |
+| Map         | Navigate to Contact page | Find the map that shows the location of restaurant | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-4.jpg">
+<img src="docs/user-story-test/user-story-map.jpg">
 </details>
 
-5. As a returning user, I want to see the Sunday meal offer
+5. I want to know the contact address of restaurant.
 
-| **Feature** | **Action**                                               | **Expected Result**                         | **Actual Result** |
-| ----------- | -------------------------------------------------------- | ------------------------------------------- | ----------------- |
-| Meal-deal   | On home page scroll down to the Sunday meal deal section | Find the meal-deal for the upcomming Sunday | Works as expected |
+| **Feature**         | **Action**               | **Expected Result**                    | **Actual Result** |
+| ------------------- | ------------------------ | -------------------------------------- | ----------------- |
+| Contact Information | Navigate to Contact Page | Find the contact address of restaurant | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-5.jpg">
+<img src="docs/user-story-test/user-story-contact-info.jpg">
 </details>
 
-6. As a returnign user, I want to know the opening times
+#### As a returning user,
 
-| **Feature**                    | **Action**                       | **Expected Result** | **Actual Result** |
-| ------------------------------ | -------------------------------- | ------------------- | ----------------- |
-| Footer - opening times section | On any page scroll to the footer | See opening times   | Works as expected |
-
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-6.jpg">
-</details>
-
-7. As a returning user, I want to find a phone number to call for reservation
-
-| **Feature**                          | **Action**                                                        | **Expected Result** | **Actual Result** |
-| ------------------------------------ | ----------------------------------------------------------------- | ------------------- | ----------------- |
-| Footer - contact information section | On any page scroll to the footer                                  | See phone number    | Works as expected |
-| Info Box                             | Navigate to Contact Us page and locate the How to find us section | See phone number    | Works as expected |
-
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-7v1-15.jpg">
-<img src="docs/user-story-testing/user-story-7v2-15.jpg">
-</details>
-
-8. As a returning user, I want to see the menu
+6.  I want to see the menu.
 
 | **Feature** | **Action**                | **Expected Result** | **Actual Result** |
 | ----------- | ------------------------- | ------------------- | ----------------- |
-| Menu        | Navigate to the menu page | Read the menu       | Works as expected |
+| Menu        | Navigate to the Menu page | Find the menu       | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-8.jpg">
+<img src="docs/user-story-test/user-story-menu.jpg">
 </details>
 
-9. As a returning user, I want to leave some comment, suggestion or message to the staff
+7. I want to know the working hours of the restaurant.
 
-| **Feature**  | **Action**                                                                                    | **Expected Result**            | **Actual Result** |
-| ------------ | --------------------------------------------------------------------------------------------- | ------------------------------ | ----------------- |
-| Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd  |
+| **Feature**           | **Action**                               | **Expected Result**                             | **Actual Result** |
+| --------------------- | ---------------------------------------- | ----------------------------------------------- | ----------------- |
+| Working Hours         | Navigate to Contact Page                 | Find the working hours                          | Works as expected |
+| Today's Working Hours | Check right side of footer on every page | Find out what time the restaurant is open today | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-9-15.jpg">
+<img src="docs/user-story-test/user-story-contact-work-hours.jpg">
+<img src="docs/user-story-test/user-story-footer-work-hours.jpg">
 </details>
 
-10. As a returning user, I want to find the restaurant on social media
+8. I want to find information if reservation is available.
 
-| **Feature**                   | **Action**                       | **Expected Result**         | **Actual Result** |
-| ----------------------------- | -------------------------------- | --------------------------- | ----------------- |
-| Footer - social media section | On any page scroll to the bottom | Click on social media links | Works as expected |
+| **Feature** | **Action**                                  | **Expected Result**                        | **Actual Result** |
+| ----------- | ------------------------------------------- | ------------------------------------------ | ----------------- |
+| Status      | Check the left side of footer on every page | Find out if there is reservation available | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-10.jpg">
+<img src="docs/user-story-test/user-story-footer-status.jpg">
 </details>
 
-11. As a returning user, I want to know who is preparing the food
+9. I want to find information if restaurant is open in that moment.
 
-| **Feature**   | **Action**                                                          | **Expected Result**        | **Actual Result** |
-| ------------- | ------------------------------------------------------------------- | -------------------------- | ----------------- |
-| Meet the Chef | Navigate to the About page and scroll down to Meet the Chef section | Find brief bio of the Chef | Works as expected |
+| **Feature**           | **Action**                               | **Expected Result**                             | **Actual Result** |
+| --------------------- | ---------------------------------------- | ----------------------------------------------- | ----------------- |
+| Today's Working Hours | Check right side of footer on every page | Find out what time the restaurant is open today | Works as expectd  |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-11.jpg">
+<img src="docs/user-story-test/user-story-footer-work-hours.jpg">
 </details>
 
-12. As a returning user, I want to get directions to the restaurant
+10. I want to find a contact number to call for reservation.
 
-| **Feature** | **Action**                                                                   | **Expected Result**                            | **Actual Result** |
-| ----------- | ---------------------------------------------------------------------------- | ---------------------------------------------- | ----------------- |
-| Map         | Navigate to the Contact Us page, locate the map and click on directions link | See directions to the restaurant on Goole Maps | Works as expected |
+| **Feature**         | **Action**                                                        | **Expected Result**                    | **Actual Result** |
+| ------------------- | ----------------------------------------------------------------- | -------------------------------------- | ----------------- |
+| Contact Information | Navigate to Contact Page                                          | Find the contact address of restaurant | Works as expected |
+| Shortcut            | Click to Phone icon where its located on the right side of footer | Call for reservation                   | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-1v1-12.jpg">
+<img src="docs/user-story-test/user-story-contact-info.jpg">
+<img src="docs/user-story-test/user-story-contact-call.jpg">
 </details>
 
-13. As the site owner, I want users to find news about upcoming events or changes in opening times
+11. I want to find the social media accounts of restaurant.
 
-| **Feature** | **Action**                                       | **Expected Result** | **Actual Result** |
-| ----------- | ------------------------------------------------ | ------------------- | ----------------- |
-| News        | Scroll down on home page and locate news section | Find latest news    | Works as expected |
+| **Feature**           | **Action**                                       | **Expected Result**                   | **Actual Result** |
+| --------------------- | ------------------------------------------------ | ------------------------------------- | ----------------- |
+| Social Media Accounts | Check social media links in footer on every page | Find social media links of restaurant | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-13.jpg">
+<img src="docs/user-story-test/user-story-footer-social-media.jpg">
 </details>
 
-14. As the site owner, I want users to get to know the restaurant
+12. I want to find location of restaurant.
 
-| **Feature** | **Action**                                         | **Expected Result**                           | **Actual Result** |
-| ----------- | -------------------------------------------------- | --------------------------------------------- | ----------------- |
-| About Us    | Navigate to About page and locate About Us section | See relevant information about the restaurant | Works as expected |
+| **Feature** | **Action**               | **Expected Result**                                | **Actual Result** |
+| ----------- | ------------------------ | -------------------------------------------------- | ----------------- |
+| Map         | Navigate to Contact page | Find the map that shows the location of restaurant | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-3-14.jpg">
+<img src="docs/user-story-test/user-story-map.jpg">
 </details>
 
-15. As the site owner, I want the users to be able to contact us
+13. I want to leave suggestion or message to the staff.
 
-| **Feature**                          | **Action**                                                                                    | **Expected Result**            | **Actual Result** |
-| ------------------------------------ | --------------------------------------------------------------------------------------------- | ------------------------------ | ----------------- |
-| Contact Form                         | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd  |
-| Info Box                             | Navigate to Contact Us page and locate the How to find us section                             | Find the phone number          | Works as expected |
-| Footer - contact information section | On any page scroll down to the footer                                                         | Find the phone number          | Works as expected |
+| **Feature**  | **Action**                                        | **Expected Result**                      | **Actual Result** |
+| ------------ | ------------------------------------------------- | ---------------------------------------- | ----------------- |
+| Contact Form | Scroll down on contact page and find contact form | Leave suggestion or message to the staff | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-7v1-15.jpg">
-<img src="docs/user-story-testing/user-story-7v2-15.jpg">
-<img src="docs/user-story-testing/user-story-9-15.jpg">
+<img src="docs/user-story-test/user-story-contact-form.jpg">
+</details>
+
+#### As the site owner,
+
+14. I want the users to find information to contact us.
+
+| **Feature**   | **Action**               | **Expected Result**                                    | **Actual Result** |
+| ------------- | ------------------------ | ------------------------------------------------------ | ----------------- |
+| Image Gallery | Navigate to Gallery page | Finding images that gives information about restaurant | Works as expected |
+| Homepage      | Navigate to Home page    | Find information about restaurant                      | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-test/user-story-gallery.jpg">
+<img src="docs/user-story-test/user-story-home-info.jpg">
+</details>
+
+15. I want users to find enough information about our business before they contact us.
+
+| **Feature** | **Action**                                  | **Expected Result**                        | **Actual Result** |
+| ----------- | ------------------------------------------- | ------------------------------------------ | ----------------- |
+| Status      | Check the left side of footer on every page | Find out if there is reservation available | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-test/user-story-footer-status.jpg">
+</details>
+
+16. I want users to see our menu.
+
+| **Feature** | **Action**                | **Expected Result**     | **Actual Result** |
+| ----------- | ------------------------- | ----------------------- | ----------------- |
+| Menu        | Navigate to the Menu page | See prices on menu page | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-test/user-story-menu.jpg">
+</details>
+
+17. I want users to see photos of events that we made in our restaurant.
+
+| **Feature**   | **Action**               | **Expected Result**                                    | **Actual Result** |
+| ------------- | ------------------------ | ------------------------------------------------------ | ----------------- |
+| Image Gallery | Navigate to Gallery page | Finding images that gives information about restaurant | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-test/user-story-gallery.jpg">
 </details>
 
 ## Bugs
