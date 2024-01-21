@@ -33,10 +33,8 @@
    5. [Device testing](#performing-tests-on-various-devices)
    6. [Browser compatibility](#browser-compatability)
    7. [Testing user stories](#testing-user-stories)
-7. [Bugs](#Bugs)
-8. [Deployment](#deployment)
-9. [Credits](#credits)
-10. [Acknowledgements](#acknowledgements)
+7. [Deployment](#deployment)
+8. [Acknowledgements](#acknowledgements)
 
 ## Project Goals
 
