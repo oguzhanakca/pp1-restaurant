@@ -85,28 +85,31 @@ As a first time user,
 3. I want to be prepared what to expect at the restaurant.
 4. I want to know where the restaurant located.
 5. I want to know the contact address of restaurant.
+6. I want to go back to homepage in a misdirection.
 
 #### Returning User
 
 As a returning user,
 
-6.  I want to see the menu.
-7.  I want to know the working hours of the restaurant.
-8.  I want to find information if reservation is available.
-9.  I want to find information if restaurant is open in that moment.
-10. I want to find a contact number to call for reservation.
-11. I want to find the social media accounts of restaurant.
-12. I want to find location of restaurant.
-13. I want to leave suggestion or message to the staff.
+7.  I want to see the menu.
+8.  I want to know the working hours of the restaurant.
+9.  I want to find information if reservation is available.
+10. I want to find information if restaurant is open in that moment.
+11. I want to find a contact number to call for reservation.
+12. I want to find the social media accounts of restaurant.
+13. I want to find location of restaurant.
+14. I want to leave suggestion or message to the staff.
+15. I want to go back to homepage in a misdirection.
 
 #### Site Owner
 
 As the site owner,
 
-14. I want the users to find information to contact us.
-15. I want users to find enough information if today reservation is available or not, before they contact us.
-16. I want users to see our menu.
-17. I want users to see photos of events that we made in our restaurant.
+16. I want the users to find information to contact us.
+17. I want users to find enough information if today reservation is available or not, before they contact us.
+18. I want users to see our menu.
+19. I want users to see photos of events that we made in our restaurant.
+20. I want users to move back to homepage in a misdirection.
 
 ## Design
 
@@ -154,6 +157,9 @@ The website consists of 4 separate pages:
 <details><summary>Menu</summary>
 <img src="docs/wireframes/menu-wireframe.jpg">
 </details>
+<details><summary>404</summary>
+<img src="docs/wireframes/404-wireframe.jpg">
+</details>
 
 ## Technologies Used
 
@@ -172,6 +178,9 @@ The website consists of 4 separate pages:
 - Color-Hex<span>.</span>com
 - Font Awesome
 - Favicon<span>.</span>io
+- Validator<span>.</span>w3<span>.</span>org
+- Jigsaw<span>.</span>w3<span>.</span>org/css-validator
+- Wave<span>.</span>webaim<span>.</span>org
 
 ## Features
 
@@ -187,7 +196,7 @@ The website consists of 4 separate pages:
 ### Homepage
 
 - Gives information about the restaurant and what cuisine they serve
-- User stories covered: 1, 17
+- User stories covered: 1, 19
 
 ![Homepage](docs/features/feature-homepage.jpg)
 
@@ -197,14 +206,14 @@ The website consists of 4 separate pages:
 - Gives information about current capacity of restaurant and its state
 - On tablet and bigger screens contains social media links
 - Contains a shortcut to make a call
-- User stories covered: 7, 8, 9, 10, 11, 15
+- User stories covered: 8, 9, 10, 11, 12, 17
 
 ![Footer](docs/features/feature-footer.jpg)
 
 ### Image Gallery
 
 - Imagery of the restaurant and the events they hosted
-- User stories covered: 1, 3, 17
+- User stories covered: 1, 3, 19
 
 ![Gallery](docs/features/feature-gallery.jpg)
 
@@ -212,21 +221,21 @@ The website consists of 4 separate pages:
 
 - A way for user to provide feedback
 - Has an option to subscribe for deals & events
-- User stories covered: 13, 14
+- User stories covered: 14, 16
 
 ![Contact Form](docs/features/feature-contact-form.jpg)
 
 ### Map
 
 - Shows the restaurant location on an embeded Google Map
-- User stories covered: 4, 12
+- User stories covered: 4, 13
 
 ![Map](docs/features/feature-map.jpg)
 
 ### Contact Information
 
 - Provides the user with information about the restaurant including address, phone number and work hours
-- User stories covered: 5, 10, 11, 12, 14
+- User stories covered: 5, 8, 10, 11, 12, 13, 14
 
 ![Information](docs/features/feature-contact-information.jpg)
 
@@ -234,9 +243,17 @@ The website consists of 4 separate pages:
 
 - Shows the menu with its own navigation: soups & salads, main courses, seafood, desserts and drinks
 - Every meal has its own photo, price and description
-- User stories covered: 2, 6, 16
+- User stories covered: 2, 7, 18
 
 ![Menu](docs/features/feature-menu.jpg)
+
+### 404 Page
+
+- Shows the users that they are in wrong page.
+- Shows users a button for going back to homepage.
+- User stories covered: 6, 15, 20
+
+![404](docs/features/feature-404.jpg)
 
 ## Validation
 
@@ -255,6 +272,9 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 </details>
 <details><summary>Menu</summary>
 <img src="docs/validation/html-validate-menu.jpg">
+</details>
+<details><summary>404</summary>
+<img src="docs/validation/html-validate-404.jpg">
 </details>
 
 ### CSS Validation
@@ -281,6 +301,9 @@ The WAVE WebAIM web accessibility evaluation tool was used to ensure the website
 <details><summary>Menu</summary>
 <img src="docs/validation/wave-accessibility-menu.jpg">
 </details>
+<details><summary>404</summary>
+<img src="docs/validation/wave-accessibility-404.jpg">
+</details>
 
 ### Performance
 
@@ -300,6 +323,9 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 <details><summary>Menu</summary>
 <img src="docs/validation/lighthouse-mobile-menu.jpg">
 </details>
+<details><summary>404</summary>
+<img src="docs/validation/lighthouse-mobile-404.jpg">
+</details>
 
 #### Desktop
 
@@ -314,6 +340,9 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 </details>
 <details><summary>Menu</summary>
 <img src="docs/validation/lighthouse-desktop-menu.jpg">
+</details>
+<details><summary>404</summary>
+<img src="docs/validation/lighthouse-desktop-404.jpg">
 </details>
 
 ### Performing tests on various devices
@@ -390,9 +419,19 @@ The website was tested on the following browsers:
 <img src="docs/user-story-test/user-story-contact-info.jpg">
 </details>
 
+6. I want to go back to homepage in a misdirection.
+
+| **Feature**         | **Action**            | **Expected Result**     | **Actual Result** |
+| ------------------- | --------------------- | ----------------------- | ----------------- |
+| Guiding to Homepage | Navigate to Home page | Guide user to Home page | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-test/user-story-404.jpg">
+</details>
+
 #### As a returning user,
 
-6.  I want to see the menu.
+7.  I want to see the menu.
 
 | **Feature** | **Action**                | **Expected Result** | **Actual Result** |
 | ----------- | ------------------------- | ------------------- | ----------------- |
@@ -402,7 +441,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-test/user-story-menu.jpg">
 </details>
 
-7. I want to know the working hours of the restaurant.
+8. I want to know the working hours of the restaurant.
 
 | **Feature**           | **Action**                               | **Expected Result**                             | **Actual Result** |
 | --------------------- | ---------------------------------------- | ----------------------------------------------- | ----------------- |
@@ -414,7 +453,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-test/user-story-footer-work-hours.jpg">
 </details>
 
-8. I want to find information if reservation is available.
+9. I want to find information if reservation is available.
 
 | **Feature** | **Action**                                  | **Expected Result**                        | **Actual Result** |
 | ----------- | ------------------------------------------- | ------------------------------------------ | ----------------- |
@@ -424,7 +463,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-test/user-story-footer-status.jpg">
 </details>
 
-9. I want to find information if restaurant is open in that moment.
+10. I want to find information if restaurant is open in that moment.
 
 | **Feature**           | **Action**                               | **Expected Result**                             | **Actual Result** |
 | --------------------- | ---------------------------------------- | ----------------------------------------------- | ----------------- |
@@ -434,7 +473,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-test/user-story-footer-work-hours.jpg">
 </details>
 
-10. I want to find a contact number to call for reservation.
+11. I want to find a contact number to call for reservation.
 
 | **Feature**         | **Action**                                                        | **Expected Result**                    | **Actual Result** |
 | ------------------- | ----------------------------------------------------------------- | -------------------------------------- | ----------------- |
@@ -446,7 +485,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-test/user-story-contact-call.jpg">
 </details>
 
-11. I want to find the social media accounts of restaurant.
+12. I want to find the social media accounts of restaurant.
 
 | **Feature**           | **Action**                                       | **Expected Result**                   | **Actual Result** |
 | --------------------- | ------------------------------------------------ | ------------------------------------- | ----------------- |
@@ -456,7 +495,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-test/user-story-footer-social-media.jpg">
 </details>
 
-12. I want to find location of restaurant.
+13. I want to find location of restaurant.
 
 | **Feature** | **Action**               | **Expected Result**                                | **Actual Result** |
 | ----------- | ------------------------ | -------------------------------------------------- | ----------------- |
@@ -466,7 +505,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-test/user-story-map.jpg">
 </details>
 
-13. I want to leave suggestion or message to the staff.
+14. I want to leave suggestion or message to the staff.
 
 | **Feature**  | **Action**                                        | **Expected Result**                      | **Actual Result** |
 | ------------ | ------------------------------------------------- | ---------------------------------------- | ----------------- |
@@ -476,9 +515,19 @@ The website was tested on the following browsers:
 <img src="docs/user-story-test/user-story-contact-form.jpg">
 </details>
 
+15. I want to go back to homepage in a misdirection.
+
+| **Feature**         | **Action**            | **Expected Result**     | **Actual Result** |
+| ------------------- | --------------------- | ----------------------- | ----------------- |
+| Guiding to Homepage | Navigate to Home page | Guide user to Home page | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-test/user-story-404.jpg">
+</details>
+
 #### As the site owner,
 
-14. I want the users to find information to contact us.
+16. I want the users to find information to contact us.
 
 | **Feature**   | **Action**               | **Expected Result**                                    | **Actual Result** |
 | ------------- | ------------------------ | ------------------------------------------------------ | ----------------- |
@@ -490,7 +539,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-test/user-story-home-info.jpg">
 </details>
 
-15. I want users to find enough information about our business before they contact us.
+17. I want users to find enough information about our business before they contact us.
 
 | **Feature** | **Action**                                  | **Expected Result**                        | **Actual Result** |
 | ----------- | ------------------------------------------- | ------------------------------------------ | ----------------- |
@@ -500,7 +549,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-test/user-story-footer-status.jpg">
 </details>
 
-16. I want users to see our menu.
+18. I want users to see our menu.
 
 | **Feature** | **Action**                | **Expected Result**     | **Actual Result** |
 | ----------- | ------------------------- | ----------------------- | ----------------- |
@@ -510,7 +559,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-test/user-story-menu.jpg">
 </details>
 
-17. I want users to see photos of events that we made in our restaurant.
+19. I want users to see photos of events that we made in our restaurant.
 
 | **Feature**   | **Action**               | **Expected Result**                                    | **Actual Result** |
 | ------------- | ------------------------ | ------------------------------------------------------ | ----------------- |
@@ -518,6 +567,16 @@ The website was tested on the following browsers:
 
 <details><summary>Screenshots</summary>
 <img src="docs/user-story-test/user-story-gallery.jpg">
+</details>
+
+20. I want users to move back to homepage in a misdirection.
+
+| **Feature**         | **Action**            | **Expected Result**     | **Actual Result** |
+| ------------------- | --------------------- | ----------------------- | ----------------- |
+| Guiding to Homepage | Navigate to Home page | Guide user to Home page | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-test/user-story-404.jpg">
 </details>
 
 ## Deployment
